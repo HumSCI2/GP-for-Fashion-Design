@@ -2,6 +2,7 @@
 
 > **Does more expressive always mean better?** A controlled empirical study of GP kernel complexity in text-to-visual embedding regression.
 
+
 ---
 
 ## Abstract
@@ -45,6 +46,7 @@ The framework operates in three stages: feature extraction from raw multimodal f
 
 ![Method Overview](figs/model_framework.png)
 
+
 | Stage | Input | Output | Key components |
 |-------|-------|--------|----------------|
 | 1 — Feature extraction | Image + text description | 768-dim text emb. / 512-dim visual emb. | DistilBERT, CLIP ViT-B/32 |
@@ -52,6 +54,8 @@ The framework operates in three stages: feature extraction from raw multimodal f
 | 3 — GP regression | `t, u_c, u_p, u_m, u_s, u_d` | Visual latent `v` | RBF · Matérn · Periodic · Linear · SM (D/E/R) |
 
 ---
+![Method Overview](figs/fashion_encoder.png)
+
 
 ## Key Results
 
