@@ -174,5 +174,7 @@ python experiments/ablation/mixture_components.py --Q 2 4 6 8
 
 # Ablation: latent dimensionality
 python experiments/ablation/latent_dim.py --dim 1 2 5 10
-
-
+```
+---
+## More Details
+Full details coming upon paper acceptance.
